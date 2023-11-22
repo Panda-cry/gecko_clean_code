@@ -1,0 +1,104 @@
+Bool varijable bi trebalo da pocinju sa is/ has is_true is_logged itd
+varijable bi trebale da budu snake case
+funkcije isto
+CONSTANTE trebalo bi velikim i na vrhu modula
+konstnte se mogu menjati tokom koda ali naming konvencija je tu da
+zamaskira
+ako slucajno upadnemo u nedoumicu i hocemo da koristimo neke
+reci iz pythona mora posle te reci da ide _ return_ da se zove varijabla
+npr
+
+liste setovi da bude plural_list ili plural tako nesto
+
+
+
+Ako je neki if jako dugacak lepse je da ga ubacimo u () u podelimo u redove
+ali da and or etc bude dole i uvuceno za 1 tab
+
+if (nesto nest
+        and nesto nest):
+    nesto_se_radi()
+
+otprilike ovako :D
+
+kada delimo kod listu mozemo da ispeglamo u zagradama
+{} dict i set isto mozemo da delimo ali da bude na neki ustaljeni broj
+value lepse je da ga ubacimo u () i onda delimo po +-*/ zavisi o cemu se radi
+deli se po operatorima
+tako da odradimo break line i u sledecoj liniji ide and +-/* pa tako dalje
+
+
+fje razdvajamo 2 da mesta
+i odozgo ako je 1 fja u modulu razdvoji sa 2 (mozda se promeni zbog importa)
+u klasi  metode razdvajamo sa 1
+u funkciji ili metodi kada imamo logicke sekcije trebalo bi da razdvojimo sa
+linijom
+def nesto(n):
+    if nest:
+        ret
+
+    for blabla;
+        reet
+
+    ret :
+
+
+ako imamo +-*/ razdvajamo i levo i desno po jedan space
+ako imamo = isto tako and or is in not in not is  > < >= <=
+ako imamo , u listi ili negde stavljamo element pa za , pa odvajamo jednim space-om
+
+
+a ako imamo zajedno veci i manji prioritet onda stavljamo razmak na menjem priortitetu
+-+
+
+komentar  inline odvoji se sa 2 space ili 4 pa # pa jedan space i tjt
+ne treba da se duzi i da se objasnjava ono sto je vidljivo
+isto i za multiline comment
+
+doc string je sa """ pocetak je sta bi trebalo da se radi pa enter
+pa args pa enter pa return ima neki format kako se koristi uvek moze i raises
+ako ima neki error
+
+truditi se da bude """ u paraleli ispod otvarajuce
+dok kod inline doc stirng treba u redu jednom
+
+
+stringovi ako odlucimo da cemo da korsitimo samo "" onda ga do kraja modula koristimo
+a ne da mesamo sa '' ili jedno ili drugo
+slice na stringovima ne treba da ide space ako imamo neke binarne operatoore
+onda : se tretira sa manjim prioritetom i odvaja se sa 1 space sa obe strene
+ako nema parametra nekih samo ::step onda nema space
+
+
+is proverava identitet u memoriji a == value
+opet sa () ima najvecu prednost
+
+listu odvajati prvi element ili 3 pa onda jos jedan ili 3 itd
+pa na kraju ] ili dict itd
+
+
+{key : value for (key,value) in iterable }
+
+ako fja ne vraca nista trebalo bi da se stavi return None
+radi lakseg razumevanje treba da naznacimo sta fja vraca
+koji su parametri tj kojeg su tipa
+
+na loop ako imamo if neki za pretragu mozemo na nivou for ili while loop
+da stavimo else
+i ne moramo da hendalmo sa nekim flegovima
+
+
+poredjenje u klasam sa dunder metodama __eq__ itd
+kako poredimo 2 iste klase tj 2 instance
+
+nesto za metode ali sve sam to znao
+_za non public metode
+mozda neka fasada da se pravi u klasama
+@cls je vise u svojstvu singletona ili kreatora
+da poziva __init__ i da vraca objekat
+
+geteri i seteri ali pythonic je da se kreira sa @property
+
+| merge za dict |= update dict 2 dicta tj
+
+swap varijabli moze u 1 liniji
